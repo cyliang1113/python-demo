@@ -1,7 +1,7 @@
 import os.path as path
 import os
 
-file_name = './binFile'
+file_name = 'binFile'
 
 if os.path.exists(file_name):
     os.remove(file_name)

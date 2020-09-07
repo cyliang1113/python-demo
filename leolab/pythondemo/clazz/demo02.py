@@ -18,5 +18,5 @@ class Person(object):  # 括号中表示该类的父类，如果没有自定义�
 
 
 p = Person("tom")
-print(p)
-print(Person.getName())
+print(p.name)
+print(p.getName())
