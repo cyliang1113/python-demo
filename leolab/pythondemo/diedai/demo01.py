@@ -5,12 +5,12 @@
 
 l = [1, 2, 3, 4]
 for i in l:
-    print i
+    print(i)
     
 m = {u"a":1, u"b":2, u"c":3}
 for k in m:
-    print k, u":", m.get(k)
+    print(k, u":", m.get(k))
     
     
-for k, v in m.iteritems():
-    print k, u":", v
+# for k, v in m.iteritems():
+#     print(k, u":", v)
