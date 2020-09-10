@@ -15,8 +15,8 @@ def printName(fname, lname):
     print(fname,lname)
     
     
-print(printName.__name__) # newFn     在函数上加上@log后, 函数名printName指向了newFn
-print(printName) # <function newFn at 0x0000000002763048> 在函数上加上@log后, 函数名printName
+print(printName.__name__)  # newFn     在函数上加上@log后, 函数名printName指向了newFn
+print(printName)  # <function newFn at 0x0000000002763048> 在函数上加上@log后, 函数名printName
 
 
 
