@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import sys
-sys.path.append('../../../')
+sys.path.append('../../../')  # 把项目路径加入sys path
 import leolab.pythondemo.module.add_module as add_module
 from leolab.pythondemo.module.add_module import add2
 
